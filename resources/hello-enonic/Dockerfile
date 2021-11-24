@@ -7,4 +7,3 @@ RUN apt update \
 WORKDIR /usr/src/app
 COPY prg ./
 RUN chmod -R 755 /usr/src/app/prg
-RUN ./prg
